@@ -1,3 +1,14 @@
-const now = new Date().toLocaleString()
+const fs = require('fs')
 
-console.log(now);
+const data = `
+123454654654654asdfsdfsdcvxcv
+` 
+
+fs.writeFileSync('nodejs.txt', data)
+
+const result = fs.readFileSync('nodejs.txt', {encoding: 'utf-8'})
+
+console.log(result);
+
+console.log(__dirname);
+console.log(__filename);
