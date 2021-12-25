@@ -1,2 +1,2 @@
 to see node js file in console write
-node <path to file>
+node path to file
