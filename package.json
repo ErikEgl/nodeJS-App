@@ -1,15 +1,11 @@
 {
   "name": "nodejs-basics",
   "version": "0.0.1",
-  "description": "this is node js course",
+  "description": "this is node js basics course",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index",
-    "prod": "node index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ErikEgl/nodeJS-App.git"
+    "start": "nodemon index.js",
+    "prod": "node index.js"
   },
   "keywords": [
     "node",
@@ -19,14 +15,11 @@
   ],
   "author": "Erik Egl",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ErikEgl/nodeJS-App/issues"
-  },
-  "homepage": "https://github.com/ErikEgl/nodeJS-App#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^1.18.9"
   }
 }
